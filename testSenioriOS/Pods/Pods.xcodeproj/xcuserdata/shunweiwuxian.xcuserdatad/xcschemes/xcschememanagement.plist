@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Aspects.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CTPersistance.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-testSenioriOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>64E5A23A2B478B1D2EF6AFF4080218C4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77F3EE07D02189750CDBD780A192A828</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8FE394C39AC89A793C75CF8D2E6C8643</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F32116B2D0BB8FF4826091CC1264FB4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
