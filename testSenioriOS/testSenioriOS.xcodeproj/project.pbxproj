@@ -20,12 +20,21 @@
 		F93EC5151E5D29FF00979821 /* testSenioriOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F93EC5131E5D29FF00979821 /* testSenioriOS.xcdatamodeld */; };
 		F93EC5171E5D29FF00979821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93EC5161E5D29FF00979821 /* Assets.xcassets */; };
 		F93EC51A1E5D29FF00979821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93EC5181E5D29FF00979821 /* LaunchScreen.storyboard */; };
-		F93EC5231E5D611C00979821 /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = F93EC5221E5D611C00979821 /* Hello.m */; };
 		F978886D1E84CA5800D2B88A /* UITableView+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = F978886C1E84CA5800D2B88A /* UITableView+Hook.m */; };
 		F97888711E84CFE300D2B88A /* CGraphicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F97888701E84CFE300D2B88A /* CGraphicViewController.m */; };
 		F97888771E84D0DE00D2B88A /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F97888761E84D0DE00D2B88A /* UIViewController+Category.m */; };
 		F978887A1E84D1C200D2B88A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F97888791E84D1C200D2B88A /* BaseViewController.m */; };
 		F978887D1E84D33200D2B88A /* CGraphicImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F978887C1E84D33200D2B88A /* CGraphicImageView.m */; };
+		F98C80C81E9C7467006387DC /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80C71E9C7467006387DC /* TouchViewController.m */; };
+		F98C80CB1E9C99D3006387DC /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80CA1E9C99D3006387DC /* BaseView.m */; };
+		F98C80CF1E9C9DA9006387DC /* DragableCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80CE1E9C9DA9006387DC /* DragableCardController.m */; };
+		F98C80D51E9CA68F006387DC /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80D41E9CA68F006387DC /* CardView.m */; };
+		F98C80DA1E9CAD47006387DC /* CardViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80D91E9CAD47006387DC /* CardViewContainer.m */; };
+		F98C80E21E9CCDAD006387DC /* RefreshController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80E11E9CCDAD006387DC /* RefreshController.m */; };
+		F98C80EB1E9CD147006387DC /* TwinkleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80E61E9CD147006387DC /* TwinkleLayer.m */; };
+		F98C80EC1E9CD147006387DC /* TwinkleLayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80E81E9CD147006387DC /* TwinkleLayer+Anim.m */; };
+		F98C80ED1E9CD147006387DC /* UIView+Twinkle.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80EA1E9CD147006387DC /* UIView+Twinkle.m */; };
+		F98C80F21E9CD8D7006387DC /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80F11E9CD8D7006387DC /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,8 +62,6 @@
 		F93EC5161E5D29FF00979821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F93EC5191E5D29FF00979821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F93EC51B1E5D29FF00979821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F93EC5211E5D611C00979821 /* Hello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
-		F93EC5221E5D611C00979821 /* Hello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hello.m; sourceTree = "<group>"; };
 		F978886B1E84CA5800D2B88A /* UITableView+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Hook.h"; sourceTree = "<group>"; };
 		F978886C1E84CA5800D2B88A /* UITableView+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Hook.m"; sourceTree = "<group>"; };
 		F978886F1E84CFE300D2B88A /* CGraphicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGraphicViewController.h; sourceTree = "<group>"; };
@@ -65,6 +72,26 @@
 		F97888791E84D1C200D2B88A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		F978887B1E84D33200D2B88A /* CGraphicImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGraphicImageView.h; sourceTree = "<group>"; };
 		F978887C1E84D33200D2B88A /* CGraphicImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGraphicImageView.m; sourceTree = "<group>"; };
+		F98C80C61E9C7467006387DC /* TouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchViewController.h; sourceTree = "<group>"; };
+		F98C80C71E9C7467006387DC /* TouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchViewController.m; sourceTree = "<group>"; };
+		F98C80C91E9C99D3006387DC /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		F98C80CA1E9C99D3006387DC /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		F98C80CD1E9C9DA9006387DC /* DragableCardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragableCardController.h; sourceTree = "<group>"; };
+		F98C80CE1E9C9DA9006387DC /* DragableCardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragableCardController.m; sourceTree = "<group>"; };
+		F98C80D31E9CA68F006387DC /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		F98C80D41E9CA68F006387DC /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		F98C80D81E9CAD47006387DC /* CardViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewContainer.h; sourceTree = "<group>"; };
+		F98C80D91E9CAD47006387DC /* CardViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewContainer.m; sourceTree = "<group>"; };
+		F98C80E01E9CCDAD006387DC /* RefreshController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshController.h; sourceTree = "<group>"; };
+		F98C80E11E9CCDAD006387DC /* RefreshController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshController.m; sourceTree = "<group>"; };
+		F98C80E51E9CD147006387DC /* TwinkleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwinkleLayer.h; sourceTree = "<group>"; };
+		F98C80E61E9CD147006387DC /* TwinkleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwinkleLayer.m; sourceTree = "<group>"; };
+		F98C80E71E9CD147006387DC /* TwinkleLayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TwinkleLayer+Anim.h"; sourceTree = "<group>"; };
+		F98C80E81E9CD147006387DC /* TwinkleLayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TwinkleLayer+Anim.m"; sourceTree = "<group>"; };
+		F98C80E91E9CD147006387DC /* UIView+Twinkle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Twinkle.h"; sourceTree = "<group>"; };
+		F98C80EA1E9CD147006387DC /* UIView+Twinkle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Twinkle.m"; sourceTree = "<group>"; };
+		F98C80F01E9CD8D7006387DC /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		F98C80F11E9CD8D7006387DC /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +177,13 @@
 		F93EC5061E5D29FF00979821 /* testSenioriOS */ = {
 			isa = PBXGroup;
 			children = (
+				F98C80EF1E9CD8C8006387DC /* Map */,
+				F98C80EE1E9CD53A006387DC /* Tools */,
+				F98C80E31E9CD0F2006387DC /* Layer */,
+				F98C80DC1E9CCB91006387DC /* Location */,
+				F98C80CC1E9C9B99006387DC /* Base */,
+				F98C80C51E9C744F006387DC /* Touch */,
+				F9FA33191E8B51DF0050E769 /* tableView */,
 				F978886E1E84CF3C00D2B88A /* CoreGraphic */,
 				F90E10081E6E5E3500A914FC /* js */,
 				F90E10011E6E580A00A914FC /* 6Level */,
@@ -164,12 +198,8 @@
 				F93EC51B1E5D29FF00979821 /* Info.plist */,
 				F93EC5131E5D29FF00979821 /* testSenioriOS.xcdatamodeld */,
 				F93EC5071E5D29FF00979821 /* Supporting Files */,
-				F93EC5211E5D611C00979821 /* Hello.h */,
-				F93EC5221E5D611C00979821 /* Hello.m */,
 				F97888751E84D0DE00D2B88A /* UIViewController+Category.h */,
 				F97888761E84D0DE00D2B88A /* UIViewController+Category.m */,
-				F97888781E84D1C200D2B88A /* BaseViewController.h */,
-				F97888791E84D1C200D2B88A /* BaseViewController.m */,
 				F978887B1E84D33200D2B88A /* CGraphicImageView.h */,
 				F978887C1E84D33200D2B88A /* CGraphicImageView.m */,
 			);
@@ -191,6 +221,93 @@
 				F97888701E84CFE300D2B88A /* CGraphicViewController.m */,
 			);
 			name = CoreGraphic;
+			sourceTree = "<group>";
+		};
+		F98C80C51E9C744F006387DC /* Touch */ = {
+			isa = PBXGroup;
+			children = (
+				F98C80D21E9C9EE8006387DC /* DragableCard */,
+				F98C80C61E9C7467006387DC /* TouchViewController.h */,
+				F98C80C71E9C7467006387DC /* TouchViewController.m */,
+				F98C80CD1E9C9DA9006387DC /* DragableCardController.h */,
+				F98C80CE1E9C9DA9006387DC /* DragableCardController.m */,
+			);
+			name = Touch;
+			sourceTree = "<group>";
+		};
+		F98C80CC1E9C9B99006387DC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F98C80C91E9C99D3006387DC /* BaseView.h */,
+				F98C80CA1E9C99D3006387DC /* BaseView.m */,
+				F97888781E84D1C200D2B88A /* BaseViewController.h */,
+				F97888791E84D1C200D2B88A /* BaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		F98C80D21E9C9EE8006387DC /* DragableCard */ = {
+			isa = PBXGroup;
+			children = (
+				F98C80D31E9CA68F006387DC /* CardView.h */,
+				F98C80D41E9CA68F006387DC /* CardView.m */,
+				F98C80D81E9CAD47006387DC /* CardViewContainer.h */,
+				F98C80D91E9CAD47006387DC /* CardViewContainer.m */,
+			);
+			path = DragableCard;
+			sourceTree = "<group>";
+		};
+		F98C80DC1E9CCB91006387DC /* Location */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		F98C80E31E9CD0F2006387DC /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				F98C80E41E9CD0F9006387DC /* Twinkle */,
+			);
+			name = Layer;
+			sourceTree = "<group>";
+		};
+		F98C80E41E9CD0F9006387DC /* Twinkle */ = {
+			isa = PBXGroup;
+			children = (
+				F98C80E51E9CD147006387DC /* TwinkleLayer.h */,
+				F98C80E61E9CD147006387DC /* TwinkleLayer.m */,
+				F98C80E71E9CD147006387DC /* TwinkleLayer+Anim.h */,
+				F98C80E81E9CD147006387DC /* TwinkleLayer+Anim.m */,
+				F98C80E91E9CD147006387DC /* UIView+Twinkle.h */,
+				F98C80EA1E9CD147006387DC /* UIView+Twinkle.m */,
+			);
+			name = Twinkle;
+			sourceTree = "<group>";
+		};
+		F98C80EE1E9CD53A006387DC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		F98C80EF1E9CD8C8006387DC /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F98C80F01E9CD8D7006387DC /* MapViewController.h */,
+				F98C80F11E9CD8D7006387DC /* MapViewController.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		F9FA33191E8B51DF0050E769 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				F98C80E01E9CCDAD006387DC /* RefreshController.h */,
+				F98C80E11E9CCDAD006387DC /* RefreshController.m */,
+			);
+			name = tableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,15 +433,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F98C80CB1E9C99D3006387DC /* BaseView.m in Sources */,
+				F98C80ED1E9CD147006387DC /* UIView+Twinkle.m in Sources */,
+				F98C80EC1E9CD147006387DC /* TwinkleLayer+Anim.m in Sources */,
+				F98C80F21E9CD8D7006387DC /* MapViewController.m in Sources */,
+				F98C80E21E9CCDAD006387DC /* RefreshController.m in Sources */,
 				F978887D1E84D33200D2B88A /* CGraphicImageView.m in Sources */,
 				F93EC50F1E5D29FF00979821 /* ViewController.m in Sources */,
+				F98C80C81E9C7467006387DC /* TouchViewController.m in Sources */,
 				F93EC5151E5D29FF00979821 /* testSenioriOS.xcdatamodeld in Sources */,
 				F93EC50C1E5D29FF00979821 /* AppDelegate.m in Sources */,
+				F98C80D51E9CA68F006387DC /* CardView.m in Sources */,
+				F98C80DA1E9CAD47006387DC /* CardViewContainer.m in Sources */,
+				F98C80EB1E9CD147006387DC /* TwinkleLayer.m in Sources */,
 				F97888711E84CFE300D2B88A /* CGraphicViewController.m in Sources */,
 				F908BE381E6D002F00915663 /* HookUtility.m in Sources */,
 				F978887A1E84D1C200D2B88A /* BaseViewController.m in Sources */,
 				F908BE3B1E6D03C400915663 /* UIViewController+userStatus.m in Sources */,
-				F93EC5231E5D611C00979821 /* Hello.m in Sources */,
+				F98C80CF1E9C9DA9006387DC /* DragableCardController.m in Sources */,
 				F90E10041E6E59B300A914FC /* Son.m in Sources */,
 				F908BE3F1E6D065900915663 /* UIControl+userStatus.m in Sources */,
 				F93EC5091E5D29FF00979821 /* main.m in Sources */,
@@ -453,7 +579,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = testSenioriOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shunweiwuxian.testSenioriOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shunweiwuxian.SenioriOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -467,7 +593,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = testSenioriOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shunweiwuxian.testSenioriOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shunweiwuxian.SenioriOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

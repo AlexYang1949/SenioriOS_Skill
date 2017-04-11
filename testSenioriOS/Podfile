@@ -6,7 +6,17 @@ target 'testSenioriOS' do
   use_frameworks!
   pod 'CTPersistance'
   pod 'Aspects'
-  pod 'SDWebImage'  
+  pod 'SDWebImage'
+  pod 'AFNetworking'
+  pod 'ReactiveObjC'
+  pod 'MagicalRecord'
+  pod 'Masonry'
+  pod 'PNChart'
+  pod 'Realm'
+  pod 'MJRefresh'
+  pod 'YYCategories'
+  pod 'AMapLocation'
+  pod 'AMap3DMap'
 # Pods for testSenioriOS
 
 end

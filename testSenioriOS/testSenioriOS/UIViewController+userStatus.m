@@ -15,7 +15,7 @@
 +(void)load{
     [UIViewController aspect_hookSelector:@selector(viewWillAppear:) withOptions:AspectPositionBefore usingBlock:^(){
         //插入需要执行的代码
-        NSLog(@"我在viewWillAppear执行前偷偷插入了一段代码%@",[self class]);
+//        NSLog(@"我在viewWillAppear执行前偷偷插入了一段代码%@",[self class]);
         
         // 不能干扰原来的代码流程，插入代码结束后要让本来该执行的代码继续执行
 //        [self swiz_viewWillAppear:animated];

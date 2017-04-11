@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIViewController (Category)
-- (void)pushSBViewControllerID:(NSString *)vcId sbName:(NSString *)sbName  animated:(BOOL)animated;
+- (BOOL)pushSBViewControllerID:(NSString *)vcId sbName:(NSString *)sbName  animated:(BOOL)animated;
 @end

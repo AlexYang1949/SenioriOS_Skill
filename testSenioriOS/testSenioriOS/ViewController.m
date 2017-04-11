@@ -13,17 +13,26 @@
 
 #import "ViewController.h"
 #import "CGraphicViewController.h"
+#import "UIView+Twinkle.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property(nonatomic , strong) NSArray *Items;
+//@property(nonatomic , strong) UILabel *titleLabel;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _Items = @[@"runtime",@"animation",@"draw",@"CAShapeLayer",@"Quartz2D",@"UIResponse"];
+    UILabel *_titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
+//    _titleLabel = titleLabel;
+    _titleLabel.textAlignment = NSTextAlignmentCenter;
+    _titleLabel.text = @"iOS开发集锦";
+    _titleLabel.font =  [UIFont fontWithName:@"AvenirNext-Regular" size:20];
+    [_titleLabel twinkle];
+    self.navigationItem.titleView = _titleLabel;
+    _Items = @[@"RefreshController",@"runtime",@"animation",@"draw",@"CAShapeLayer",@"Quartz2D",@"UIResponse",@"TouchViewController",@"DragableCardController",@"MapViewController"];
 
 }
 
@@ -47,6 +56,15 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    [self pushSBViewControllerID:NSStringFromClass([CGraphicViewController class]) sbName:@"Main" animated:YES];
+    if ([[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:_Items[indexPath.row]]) {
+        [self pushSBViewControllerID:_Items[indexPath.row]sbName:@"Main" animated:YES];
+    }else{
+        Class class = NSClassFromString(_Items[indexPath.row]);
+        if (nil != class) {
+            UIViewController *vc = [[class alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+    }
+    
 }
 @end

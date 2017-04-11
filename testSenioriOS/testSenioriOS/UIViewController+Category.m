@@ -9,8 +9,9 @@
 #import "UIViewController+Category.h"
 
 @implementation UIViewController (Category)
-- (void)pushSBViewControllerID:(NSString *)vcId sbName:(NSString *)sbName  animated:(BOOL)animated{
-    [self.navigationController pushViewController:[[UIStoryboard storyboardWithName:sbName bundle:nil] instantiateViewControllerWithIdentifier:vcId] animated:YES];
-    
+- (BOOL)pushSBViewControllerID:(NSString *)vcId sbName:(NSString *)sbName  animated:(BOOL)animated{
+    UIViewController *sbvc = [[UIStoryboard storyboardWithName:sbName bundle:nil] instantiateViewControllerWithIdentifier:vcId];
+    [self.navigationController pushViewController:sbvc animated:YES];
+    return YES;
 }
 @end
