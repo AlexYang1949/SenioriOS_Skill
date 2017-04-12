@@ -17,6 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // 注册高德地图
     [AMapServices sharedServices].apiKey =@"您的key";
     // Override point for customization after application launch.
     return YES;

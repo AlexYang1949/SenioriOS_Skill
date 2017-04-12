@@ -17,6 +17,7 @@ target 'testSenioriOS' do
   pod 'YYCategories'
   pod 'AMapLocation'
   pod 'AMap3DMap'
+  pod 'PNChart'
 # Pods for testSenioriOS
 
 end

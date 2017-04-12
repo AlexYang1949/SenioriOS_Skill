@@ -11,8 +11,6 @@
 		F908BE381E6D002F00915663 /* HookUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F908BE371E6D002F00915663 /* HookUtility.m */; };
 		F908BE3B1E6D03C400915663 /* UIViewController+userStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = F908BE3A1E6D03C400915663 /* UIViewController+userStatus.m */; };
 		F908BE3F1E6D065900915663 /* UIControl+userStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = F908BE3E1E6D065900915663 /* UIControl+userStatus.m */; };
-		F90E10041E6E59B300A914FC /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E10031E6E59B300A914FC /* Son.m */; };
-		F90E10071E6E59C100A914FC /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E10061E6E59C100A914FC /* Father.m */; };
 		F93EC5091E5D29FF00979821 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F93EC5081E5D29FF00979821 /* main.m */; };
 		F93EC50C1E5D29FF00979821 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F93EC50B1E5D29FF00979821 /* AppDelegate.m */; };
 		F93EC50F1E5D29FF00979821 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F93EC50E1E5D29FF00979821 /* ViewController.m */; };
@@ -31,10 +29,20 @@
 		F98C80D51E9CA68F006387DC /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80D41E9CA68F006387DC /* CardView.m */; };
 		F98C80DA1E9CAD47006387DC /* CardViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80D91E9CAD47006387DC /* CardViewContainer.m */; };
 		F98C80E21E9CCDAD006387DC /* RefreshController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80E11E9CCDAD006387DC /* RefreshController.m */; };
-		F98C80EB1E9CD147006387DC /* TwinkleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80E61E9CD147006387DC /* TwinkleLayer.m */; };
-		F98C80EC1E9CD147006387DC /* TwinkleLayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80E81E9CD147006387DC /* TwinkleLayer+Anim.m */; };
-		F98C80ED1E9CD147006387DC /* UIView+Twinkle.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80EA1E9CD147006387DC /* UIView+Twinkle.m */; };
 		F98C80F21E9CD8D7006387DC /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F98C80F11E9CD8D7006387DC /* MapViewController.m */; };
+		F99C4F661E9E02CE0048FEA0 /* CardScrollController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C4F651E9E02CE0048FEA0 /* CardScrollController.m */; };
+		F99C4F6D1E9E032D0048FEA0 /* CardCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C4F681E9E032D0048FEA0 /* CardCellCollectionViewCell.m */; };
+		F99C4F6E1E9E032D0048FEA0 /* CardLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C4F6A1E9E032D0048FEA0 /* CardLayout.m */; };
+		F99C4F6F1E9E032D0048FEA0 /* CardSelectedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C4F6C1E9E032D0048FEA0 /* CardSelectedLayout.m */; };
+		F99C4F751E9E03FE0048FEA0 /* RootModuleController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C4F741E9E03FE0048FEA0 /* RootModuleController.m */; };
+		F99C4F771E9E050A0048FEA0 /* Module.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99C4F761E9E050A0048FEA0 /* Module.storyboard */; };
+		F99C4F7B1E9E06C20048FEA0 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C4F7A1E9E06C20048FEA0 /* BaseNavigationController.m */; };
+		F99C4F821E9E0BB00048FEA0 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C4F811E9E0BB00048FEA0 /* TabBarViewController.m */; };
+		F99C4F8B1E9E109A0048FEA0 /* TwinkleLayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C4F861E9E109A0048FEA0 /* TwinkleLayer+Anim.m */; };
+		F99C4F8C1E9E109A0048FEA0 /* TwinkleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C4F881E9E109A0048FEA0 /* TwinkleLayer.m */; };
+		F99C4F8D1E9E109A0048FEA0 /* UIView+Twinkle.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C4F8A1E9E109A0048FEA0 /* UIView+Twinkle.m */; };
+		F99C4F911E9E16120048FEA0 /* WaveProController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C4F901E9E16120048FEA0 /* WaveProController.m */; };
+		F99C4F991E9E1F650048FEA0 /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C4F981E9E1F650048FEA0 /* ChartViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,10 +55,6 @@
 		F908BE3A1E6D03C400915663 /* UIViewController+userStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+userStatus.m"; sourceTree = "<group>"; };
 		F908BE3D1E6D065900915663 /* UIControl+userStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+userStatus.h"; sourceTree = "<group>"; };
 		F908BE3E1E6D065900915663 /* UIControl+userStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+userStatus.m"; sourceTree = "<group>"; };
-		F90E10021E6E59B300A914FC /* Son.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
-		F90E10031E6E59B300A914FC /* Son.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
-		F90E10051E6E59C100A914FC /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
-		F90E10061E6E59C100A914FC /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
 		F93EC5041E5D29FF00979821 /* testSenioriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSenioriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93EC5081E5D29FF00979821 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F93EC50A1E5D29FF00979821 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,14 +88,34 @@
 		F98C80D91E9CAD47006387DC /* CardViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewContainer.m; sourceTree = "<group>"; };
 		F98C80E01E9CCDAD006387DC /* RefreshController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshController.h; sourceTree = "<group>"; };
 		F98C80E11E9CCDAD006387DC /* RefreshController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshController.m; sourceTree = "<group>"; };
-		F98C80E51E9CD147006387DC /* TwinkleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwinkleLayer.h; sourceTree = "<group>"; };
-		F98C80E61E9CD147006387DC /* TwinkleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwinkleLayer.m; sourceTree = "<group>"; };
-		F98C80E71E9CD147006387DC /* TwinkleLayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TwinkleLayer+Anim.h"; sourceTree = "<group>"; };
-		F98C80E81E9CD147006387DC /* TwinkleLayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TwinkleLayer+Anim.m"; sourceTree = "<group>"; };
-		F98C80E91E9CD147006387DC /* UIView+Twinkle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Twinkle.h"; sourceTree = "<group>"; };
-		F98C80EA1E9CD147006387DC /* UIView+Twinkle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Twinkle.m"; sourceTree = "<group>"; };
 		F98C80F01E9CD8D7006387DC /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		F98C80F11E9CD8D7006387DC /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		F99C4F5D1E9DFDAF0048FEA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		F99C4F641E9E02CE0048FEA0 /* CardScrollController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardScrollController.h; sourceTree = "<group>"; };
+		F99C4F651E9E02CE0048FEA0 /* CardScrollController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardScrollController.m; sourceTree = "<group>"; };
+		F99C4F671E9E032D0048FEA0 /* CardCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCellCollectionViewCell.h; sourceTree = "<group>"; };
+		F99C4F681E9E032D0048FEA0 /* CardCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCellCollectionViewCell.m; sourceTree = "<group>"; };
+		F99C4F691E9E032D0048FEA0 /* CardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardLayout.h; sourceTree = "<group>"; };
+		F99C4F6A1E9E032D0048FEA0 /* CardLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardLayout.m; sourceTree = "<group>"; };
+		F99C4F6B1E9E032D0048FEA0 /* CardSelectedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSelectedLayout.h; sourceTree = "<group>"; };
+		F99C4F6C1E9E032D0048FEA0 /* CardSelectedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSelectedLayout.m; sourceTree = "<group>"; };
+		F99C4F731E9E03FE0048FEA0 /* RootModuleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootModuleController.h; sourceTree = "<group>"; };
+		F99C4F741E9E03FE0048FEA0 /* RootModuleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootModuleController.m; sourceTree = "<group>"; };
+		F99C4F761E9E050A0048FEA0 /* Module.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Module.storyboard; sourceTree = "<group>"; };
+		F99C4F791E9E06C20048FEA0 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		F99C4F7A1E9E06C20048FEA0 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		F99C4F801E9E0BB00048FEA0 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		F99C4F811E9E0BB00048FEA0 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		F99C4F851E9E109A0048FEA0 /* TwinkleLayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TwinkleLayer+Anim.h"; sourceTree = "<group>"; };
+		F99C4F861E9E109A0048FEA0 /* TwinkleLayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TwinkleLayer+Anim.m"; sourceTree = "<group>"; };
+		F99C4F871E9E109A0048FEA0 /* TwinkleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwinkleLayer.h; sourceTree = "<group>"; };
+		F99C4F881E9E109A0048FEA0 /* TwinkleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwinkleLayer.m; sourceTree = "<group>"; };
+		F99C4F891E9E109A0048FEA0 /* UIView+Twinkle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Twinkle.h"; sourceTree = "<group>"; };
+		F99C4F8A1E9E109A0048FEA0 /* UIView+Twinkle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Twinkle.m"; sourceTree = "<group>"; };
+		F99C4F8F1E9E16120048FEA0 /* WaveProController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveProController.h; sourceTree = "<group>"; };
+		F99C4F901E9E16120048FEA0 /* WaveProController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveProController.m; sourceTree = "<group>"; };
+		F99C4F971E9E1F650048FEA0 /* ChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		F99C4F981E9E1F650048FEA0 /* ChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,17 +162,6 @@
 			name = "埋点";
 			sourceTree = "<group>";
 		};
-		F90E10011E6E580A00A914FC /* 6Level */ = {
-			isa = PBXGroup;
-			children = (
-				F90E10021E6E59B300A914FC /* Son.h */,
-				F90E10031E6E59B300A914FC /* Son.m */,
-				F90E10051E6E59C100A914FC /* Father.h */,
-				F90E10061E6E59C100A914FC /* Father.m */,
-			);
-			name = 6Level;
-			sourceTree = "<group>";
-		};
 		F90E10081E6E5E3500A914FC /* js */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,22 +190,25 @@
 		F93EC5061E5D29FF00979821 /* testSenioriOS */ = {
 			isa = PBXGroup;
 			children = (
+				F99C4F831E9E109A0048FEA0 /* 常用功能 */,
+				F99C4F7F1E9E0AC80048FEA0 /* 成型app */,
+				F99C4F781E9E06790048FEA0 /* Main */,
+				F99C4F5E1E9DFE7E0048FEA0 /* 常用模块 */,
 				F98C80EF1E9CD8C8006387DC /* Map */,
-				F98C80EE1E9CD53A006387DC /* Tools */,
-				F98C80E31E9CD0F2006387DC /* Layer */,
-				F98C80DC1E9CCB91006387DC /* Location */,
 				F98C80CC1E9C9B99006387DC /* Base */,
 				F98C80C51E9C744F006387DC /* Touch */,
 				F9FA33191E8B51DF0050E769 /* tableView */,
 				F978886E1E84CF3C00D2B88A /* CoreGraphic */,
 				F90E10081E6E5E3500A914FC /* js */,
-				F90E10011E6E580A00A914FC /* 6Level */,
 				F908BE3C1E6D063500915663 /* 埋点 */,
 				F93EC50A1E5D29FF00979821 /* AppDelegate.h */,
 				F93EC50B1E5D29FF00979821 /* AppDelegate.m */,
 				F93EC50D1E5D29FF00979821 /* ViewController.h */,
 				F93EC50E1E5D29FF00979821 /* ViewController.m */,
+				F99C4F731E9E03FE0048FEA0 /* RootModuleController.h */,
+				F99C4F741E9E03FE0048FEA0 /* RootModuleController.m */,
 				F93EC5101E5D29FF00979821 /* Main.storyboard */,
+				F99C4F761E9E050A0048FEA0 /* Module.storyboard */,
 				F93EC5161E5D29FF00979821 /* Assets.xcassets */,
 				F93EC5181E5D29FF00979821 /* LaunchScreen.storyboard */,
 				F93EC51B1E5D29FF00979821 /* Info.plist */,
@@ -257,41 +273,6 @@
 			path = DragableCard;
 			sourceTree = "<group>";
 		};
-		F98C80DC1E9CCB91006387DC /* Location */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Location;
-			sourceTree = "<group>";
-		};
-		F98C80E31E9CD0F2006387DC /* Layer */ = {
-			isa = PBXGroup;
-			children = (
-				F98C80E41E9CD0F9006387DC /* Twinkle */,
-			);
-			name = Layer;
-			sourceTree = "<group>";
-		};
-		F98C80E41E9CD0F9006387DC /* Twinkle */ = {
-			isa = PBXGroup;
-			children = (
-				F98C80E51E9CD147006387DC /* TwinkleLayer.h */,
-				F98C80E61E9CD147006387DC /* TwinkleLayer.m */,
-				F98C80E71E9CD147006387DC /* TwinkleLayer+Anim.h */,
-				F98C80E81E9CD147006387DC /* TwinkleLayer+Anim.m */,
-				F98C80E91E9CD147006387DC /* UIView+Twinkle.h */,
-				F98C80EA1E9CD147006387DC /* UIView+Twinkle.m */,
-			);
-			name = Twinkle;
-			sourceTree = "<group>";
-		};
-		F98C80EE1E9CD53A006387DC /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Tools;
-			sourceTree = "<group>";
-		};
 		F98C80EF1E9CD8C8006387DC /* Map */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +280,112 @@
 				F98C80F11E9CD8D7006387DC /* MapViewController.m */,
 			);
 			name = Map;
+			sourceTree = "<group>";
+		};
+		F99C4F5E1E9DFE7E0048FEA0 /* 常用模块 */ = {
+			isa = PBXGroup;
+			children = (
+				F99C4F611E9E02470048FEA0 /* 侧滑框架 */,
+				F99C4F621E9E02470048FEA0 /* 卡片滚动 */,
+				F99C4F631E9E02470048FEA0 /* 无限轮播器 */,
+			);
+			path = "常用模块";
+			sourceTree = "<group>";
+		};
+		F99C4F611E9E02470048FEA0 /* 侧滑框架 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "侧滑框架";
+			sourceTree = "<group>";
+		};
+		F99C4F621E9E02470048FEA0 /* 卡片滚动 */ = {
+			isa = PBXGroup;
+			children = (
+				F99C4F641E9E02CE0048FEA0 /* CardScrollController.h */,
+				F99C4F651E9E02CE0048FEA0 /* CardScrollController.m */,
+				F99C4F671E9E032D0048FEA0 /* CardCellCollectionViewCell.h */,
+				F99C4F681E9E032D0048FEA0 /* CardCellCollectionViewCell.m */,
+				F99C4F691E9E032D0048FEA0 /* CardLayout.h */,
+				F99C4F6A1E9E032D0048FEA0 /* CardLayout.m */,
+				F99C4F6B1E9E032D0048FEA0 /* CardSelectedLayout.h */,
+				F99C4F6C1E9E032D0048FEA0 /* CardSelectedLayout.m */,
+			);
+			path = "卡片滚动";
+			sourceTree = "<group>";
+		};
+		F99C4F631E9E02470048FEA0 /* 无限轮播器 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "无限轮播器";
+			sourceTree = "<group>";
+		};
+		F99C4F781E9E06790048FEA0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F99C4F791E9E06C20048FEA0 /* BaseNavigationController.h */,
+				F99C4F7A1E9E06C20048FEA0 /* BaseNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F99C4F7F1E9E0AC80048FEA0 /* 成型app */ = {
+			isa = PBXGroup;
+			children = (
+				F99C4F801E9E0BB00048FEA0 /* TabBarViewController.h */,
+				F99C4F811E9E0BB00048FEA0 /* TabBarViewController.m */,
+			);
+			path = "成型app";
+			sourceTree = "<group>";
+		};
+		F99C4F831E9E109A0048FEA0 /* 常用功能 */ = {
+			isa = PBXGroup;
+			children = (
+				F99C4F931E9E1D790048FEA0 /* 常用绘图 */,
+				F99C4F921E9E1CE20048FEA0 /* 股票K线 */,
+				F99C4F8E1E9E15F00048FEA0 /* 水波进度 */,
+				F99C4F841E9E109A0048FEA0 /* Label亮星星 */,
+			);
+			path = "常用功能";
+			sourceTree = "<group>";
+		};
+		F99C4F841E9E109A0048FEA0 /* Label亮星星 */ = {
+			isa = PBXGroup;
+			children = (
+				F99C4F851E9E109A0048FEA0 /* TwinkleLayer+Anim.h */,
+				F99C4F861E9E109A0048FEA0 /* TwinkleLayer+Anim.m */,
+				F99C4F871E9E109A0048FEA0 /* TwinkleLayer.h */,
+				F99C4F881E9E109A0048FEA0 /* TwinkleLayer.m */,
+				F99C4F891E9E109A0048FEA0 /* UIView+Twinkle.h */,
+				F99C4F8A1E9E109A0048FEA0 /* UIView+Twinkle.m */,
+			);
+			path = "Label亮星星";
+			sourceTree = "<group>";
+		};
+		F99C4F8E1E9E15F00048FEA0 /* 水波进度 */ = {
+			isa = PBXGroup;
+			children = (
+				F99C4F8F1E9E16120048FEA0 /* WaveProController.h */,
+				F99C4F901E9E16120048FEA0 /* WaveProController.m */,
+			);
+			path = "水波进度";
+			sourceTree = "<group>";
+		};
+		F99C4F921E9E1CE20048FEA0 /* 股票K线 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "股票K线";
+			sourceTree = "<group>";
+		};
+		F99C4F931E9E1D790048FEA0 /* 常用绘图 */ = {
+			isa = PBXGroup;
+			children = (
+				F99C4F971E9E1F650048FEA0 /* ChartViewController.h */,
+				F99C4F981E9E1F650048FEA0 /* ChartViewController.m */,
+			);
+			path = "常用绘图";
 			sourceTree = "<group>";
 		};
 		F9FA33191E8B51DF0050E769 /* tableView */ = {
@@ -374,6 +461,7 @@
 			files = (
 				F93EC51A1E5D29FF00979821 /* LaunchScreen.storyboard in Resources */,
 				F93EC5171E5D29FF00979821 /* Assets.xcassets in Resources */,
+				F99C4F771E9E050A0048FEA0 /* Module.storyboard in Resources */,
 				F93EC5121E5D29FF00979821 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,28 +522,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				F98C80CB1E9C99D3006387DC /* BaseView.m in Sources */,
-				F98C80ED1E9CD147006387DC /* UIView+Twinkle.m in Sources */,
-				F98C80EC1E9CD147006387DC /* TwinkleLayer+Anim.m in Sources */,
+				F99C4F991E9E1F650048FEA0 /* ChartViewController.m in Sources */,
+				F99C4F6E1E9E032D0048FEA0 /* CardLayout.m in Sources */,
 				F98C80F21E9CD8D7006387DC /* MapViewController.m in Sources */,
 				F98C80E21E9CCDAD006387DC /* RefreshController.m in Sources */,
+				F99C4F911E9E16120048FEA0 /* WaveProController.m in Sources */,
 				F978887D1E84D33200D2B88A /* CGraphicImageView.m in Sources */,
 				F93EC50F1E5D29FF00979821 /* ViewController.m in Sources */,
 				F98C80C81E9C7467006387DC /* TouchViewController.m in Sources */,
 				F93EC5151E5D29FF00979821 /* testSenioriOS.xcdatamodeld in Sources */,
 				F93EC50C1E5D29FF00979821 /* AppDelegate.m in Sources */,
 				F98C80D51E9CA68F006387DC /* CardView.m in Sources */,
+				F99C4F6F1E9E032D0048FEA0 /* CardSelectedLayout.m in Sources */,
 				F98C80DA1E9CAD47006387DC /* CardViewContainer.m in Sources */,
-				F98C80EB1E9CD147006387DC /* TwinkleLayer.m in Sources */,
+				F99C4F7B1E9E06C20048FEA0 /* BaseNavigationController.m in Sources */,
 				F97888711E84CFE300D2B88A /* CGraphicViewController.m in Sources */,
 				F908BE381E6D002F00915663 /* HookUtility.m in Sources */,
 				F978887A1E84D1C200D2B88A /* BaseViewController.m in Sources */,
+				F99C4F8C1E9E109A0048FEA0 /* TwinkleLayer.m in Sources */,
 				F908BE3B1E6D03C400915663 /* UIViewController+userStatus.m in Sources */,
+				F99C4F8B1E9E109A0048FEA0 /* TwinkleLayer+Anim.m in Sources */,
 				F98C80CF1E9C9DA9006387DC /* DragableCardController.m in Sources */,
-				F90E10041E6E59B300A914FC /* Son.m in Sources */,
 				F908BE3F1E6D065900915663 /* UIControl+userStatus.m in Sources */,
+				F99C4F751E9E03FE0048FEA0 /* RootModuleController.m in Sources */,
+				F99C4F8D1E9E109A0048FEA0 /* UIView+Twinkle.m in Sources */,
+				F99C4F821E9E0BB00048FEA0 /* TabBarViewController.m in Sources */,
 				F93EC5091E5D29FF00979821 /* main.m in Sources */,
 				F97888771E84D0DE00D2B88A /* UIViewController+Category.m in Sources */,
-				F90E10071E6E59C100A914FC /* Father.m in Sources */,
+				F99C4F6D1E9E032D0048FEA0 /* CardCellCollectionViewCell.m in Sources */,
+				F99C4F661E9E02CE0048FEA0 /* CardScrollController.m in Sources */,
 				F978886D1E84CA5800D2B88A /* UITableView+Hook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +562,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F93EC5111E5D29FF00979821 /* Base */,
+				F99C4F5D1E9DFDAF0048FEA0 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -575,12 +671,15 @@
 			baseConfigurationReference = 130C0877E318AC9114C1DACF /* Pods-testSenioriOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = ARU35NS94J;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = testSenioriOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shunweiwuxian.SenioriOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -589,12 +688,15 @@
 			baseConfigurationReference = 2DFA302DD649F41E3995090B /* Pods-testSenioriOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = ARU35NS94J;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = testSenioriOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shunweiwuxian.SenioriOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

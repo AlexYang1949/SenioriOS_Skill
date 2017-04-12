@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "79D0D0E3D98033BB74C096B959B47EB7F8CB0AAA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "79D0D0E3D98033BB74C096B959B47EB7F8CB0AAA" : 9223372036854775807,
+    "2110F0E16E98BD16EADA8EE97DFA67DC178B1A40" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EC441CB5-29B7-45E5-B6C3-FEF0C75DC4EA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "79D0D0E3D98033BB74C096B959B47EB7F8CB0AAA" : "SenioriOS_Skill\/",
+    "2110F0E16E98BD16EADA8EE97DFA67DC178B1A40" : "..\/project\/lxjr-iOS"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "testSenioriOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "testSenioriOS\/testSenioriOS.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.zhulebei.com:git\/lxjr-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2110F0E16E98BD16EADA8EE97DFA67DC178B1A40"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AlexYang1949\/SenioriOS_Skill.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "79D0D0E3D98033BB74C096B959B47EB7F8CB0AAA"
+    }
+  ]
+}

@@ -26,13 +26,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     UILabel *_titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
-//    _titleLabel = titleLabel;
     _titleLabel.textAlignment = NSTextAlignmentCenter;
     _titleLabel.text = @"iOS开发集锦";
     _titleLabel.font =  [UIFont fontWithName:@"AvenirNext-Regular" size:20];
     [_titleLabel twinkle];
     self.navigationItem.titleView = _titleLabel;
-    _Items = @[@"RefreshController",@"runtime",@"animation",@"draw",@"CAShapeLayer",@"Quartz2D",@"UIResponse",@"TouchViewController",@"DragableCardController",@"MapViewController"];
+    _Items = @[@"RefreshController",@"runtime",@"animation",@"draw",@"CAShapeLayer",@"Quartz2D",@"UIResponse",@"TouchViewController",@"DragableCardController",@"MapViewController",@"ChartViewController"];
 
 }
 
@@ -65,6 +64,5 @@
             [self.navigationController pushViewController:vc animated:YES];
         }
     }
-    
 }
 @end
