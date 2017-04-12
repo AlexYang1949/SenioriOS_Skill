@@ -42,19 +42,7 @@
         CGFloat yValue = [data01Array[index] floatValue];
         return [PNLineChartDataItem dataItemWithY:yValue];
     };
-    // Line Chart No.2
-    NSArray * data02Array = @[@20.1, @180.1, @26.4, @202.2, @126.2];
-    PNLineChartData *data02 = [PNLineChartData new];
-    data02.color = PNTwitterColor;
-    data02.itemCount = lineChart.xLabels.count;
-    data02.getData = ^(NSUInteger index) {
-        
-        CGFloat yValue = [data02Array[index] floatValue];
-        return [PNLineChartDataItem dataItemWithY:yValue];
-    };
-    
-    lineChart.chartData = @[data01, data02];
-    [lineChart strokeChart];
+
 }
 
 @end
